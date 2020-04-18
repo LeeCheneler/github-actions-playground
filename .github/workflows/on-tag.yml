@@ -7,7 +7,7 @@ on:
 
 jobs:
   play:
-    if: github.event.base_ref == "refs/heads/master"
+    if: github.event.base_ref == 'refs/heads/master'
     runs-on: ubuntu-latest
 
     steps:
