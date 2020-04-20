@@ -1,10 +1,9 @@
 name: Pipeline
 
-
 on:
   push:
     tags-ignore:
-      - *
+      - release-*
 
 jobs:
   print:
